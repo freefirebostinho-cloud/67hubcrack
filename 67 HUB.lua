@@ -164,7 +164,7 @@ end
 
 -- ===== GUI CREATION =====
 local gui = Instance.new("ScreenGui")
-gui.Name = "67Hub_" .. math.random(1000, 9999)
+gui.Name = "LHub_" .. math.random(1000, 9999)
 gui.ResetOnSpawn = false
 gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 gui.Parent = game.CoreGui
@@ -256,7 +256,7 @@ local headerTitle = Instance.new("TextLabel", header)
 headerTitle.Size = UDim2.new(0, 150, 0, 22)
 headerTitle.Position = UDim2.new(0, 52, 0, 6)
 headerTitle.BackgroundTransparency = 1
-headerTitle.Text = "67 HUB"
+headerTitle.Text = "L/LOPES HUB"
 headerTitle.TextColor3 = COLORS.Text
 headerTitle.Font = Enum.Font.GothamBold
 headerTitle.TextSize = 19
