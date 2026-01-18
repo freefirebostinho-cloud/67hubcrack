@@ -129,7 +129,7 @@ local function notify(title, text, duration)
             Title = title,
             Text = text,
             Duration = duration or 3,
-            Icon = "rbxassetid://91570985278514"
+            Icon = "rbxassetid://1768678501112"
         })
     end)
 end
@@ -176,7 +176,7 @@ iconBtn.Position = UDim2.new(0, 20, 0, 20)
 iconBtn.BackgroundColor3 = COLORS.Background
 iconBtn.BorderSizePixel = 0
 iconBtn.AutoButtonColor = false
-iconBtn.Image = "rbxassetid://91570985278514"
+iconBtn.Image = "rbxassetid://1768678501112"
 iconBtn.ImageColor3 = Color3.fromRGB(255, 255, 255)
 iconBtn.ScaleType = Enum.ScaleType.Fit
 iconBtn.Active = true
@@ -249,7 +249,7 @@ local headerLogo = Instance.new("ImageLabel", header)
 headerLogo.Size = UDim2.new(0, 35, 0, 35)
 headerLogo.Position = UDim2.new(0, 10, 0.5, -17.5)
 headerLogo.BackgroundTransparency = 1
-headerLogo.Image = "rbxassetid://91570985278514"
+headerLogo.Image = "rbxassetid://1768678501112"
 headerLogo.ZIndex = 7
 
 local headerTitle = Instance.new("TextLabel", header)
